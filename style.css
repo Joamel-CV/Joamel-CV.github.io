@@ -1,0 +1,48 @@
+.info{
+  width: 600px;
+  margin: 0px auto;
+  padding: 0 20px 20px 20px;
+  font-size: 20px;
+  font-family: "Courgette";
+  color: red;
+  text-aling: center;
+}
+.title{
+  width: 600px;
+  margin: 0px auto;
+  padding: 0 20px 20px 20px;
+  font-size: 35px;
+  font-family: "cinzel";
+  color: blue;
+  text-aling: center;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+main{
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  width: 600px;
+  margin: 0px auto;
+  padding: 0 20px 20px 20px;
+  text-aling: right;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: 0px auto;
+  padding: 0 20px 20px 20px;
+  text-aling: center;
+  ;
+}
+article{
+  flex: 1;
+  overflow-y: auto;
+}
+aside{
+  flex: 2;
+  overflow-y: auto;
+}
